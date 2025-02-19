@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aMusicBibleAI - UI Design</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: 'Sorts Mill Goudy', serif;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+       
+    </style>
+</head>
+<body class=" bg-[url(./images/background-image.jpg)] bg-cover bg-center">
+    <div class="container max-w-full">
+        
+        <div class="grid grid-cols-12 mt-8 mx-5  ">
+            
+            <div class="col-span-6  flex items-center px-5 ">
+                <img src="./images/Logo.png" alt="logo-image" class="w-12 h-12">
+                <div class="text-2xl md:text-3xl text-black items-center">
+                    aMusicBible <span class="text-3xl md:text-4xl  text-gray-600">&#8725;</span> AI
+                </div>
+            </div>
+            
+            <div class="col-span-6 text-lg text-yellow-400 flex justify-end gap-2 items-center px-5">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            
+            </div>
+        </div>
+
+        
+        <div class="flex flex-col justify-center  text-center ">
+            <div class="grid grid-cols-3 justify-start justify-items-start ">
+                <div></div>
+                <p class="text-lg md:text-xl text-gray-500 ml-12">Ask your thoughts</p>                
+            </div>
+            
+
+            <div class="flex justify-center">
+                <div class="flex items-center justify-start pl-4 pr-2 py-2  rounded-full bg-transparent shadow-lg  text-base md:text-lg text-gray-700 shadow-gray-600 transition-all">
+                    <span>How to be a good Christian?</span>
+                    <img src="./images/circle-arrow-icon.png" alt="arrow-icon" class="w-8 md:w-10">
+                </div>
+            </div>
+
+            <div class="flex  justify-center gap-16">
+                <img src="./images/GooglePlay.png" alt="Google Play" class="w-32 md:w-40">
+
+
+                <img src="./images/AppStore.png" alt="App Store" class="w-28 md:w-36">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="grid grid-cols-12  ">
+        <!-- left image  -->
+         <div class="col-span-4">
+
+            <img src="./images/big_3D-setting_image.png" alt="align-image1" class="w-48 justify-self-end relative top-28 left-12 z-0">
+            <img src="./images/align-image1.png" alt="align-image1" class=" max-w-full w-full">
+         </div>
+        
+
+        <!-- answer card -->
+         <div class="col-span-5">
+            <div class="text-gray-500 text-xl ml-8">Answer</div>
+            <div class="max-w-full max-h-full h-full rounded overflow-hidden shadow-black shadow-2xl bg-gray-50  rounded-t-[50px] relative z-10 ">
+                
+                <div class="flex justify-end gap-1">
+                
+                    <img src="./images/share.png" alt="align-image2" class="w-5 justify-self-end  mt-5" >
+                    <img src="./images/copy.png" alt="align-image2" class="w-5 justify-self-end mr-8 mt-5" >
+
+                </div>
+               
+                
+            </div>
+        </div>
+        
+
+
+        <!-- right image -->
+         <div class="col-span-3">
+            <img src="./images/small_3D-setting_image.png" alt="align-image1" class="w-48 justify-self-end relative top-32 right-30  z-0">
+            <img src="./images/align-image2.png" alt="align-image2" class=" max-w-full w-full mt-12 " >
+         </div>
+        
+    </div>
+    
+</body>
+
+</html>
